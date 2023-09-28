@@ -1,0 +1,11 @@
+/* todo.css */
+
+.badge {
+    cursor: pointer;
+    transition: text-decoration 0.5s;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  

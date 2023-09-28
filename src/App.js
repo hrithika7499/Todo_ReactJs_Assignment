@@ -1,12 +1,18 @@
 import './App.css';
-import { TodoWrapper } from './components/TodoWrapper';
+import Todo from './components/Todo';
+
 
 function App() {
   return (
-    <div className="App">
-      <TodoWrapper  />
+    <div className='container border border-primary rounded mt-5'
+    style={{
+      background: `url(https://wallpapercave.com/wp/wp7422936.jpg)`,
+      backgroundSize: 'cover'
+    }}
+    >
+      <Todo/>
+
     </div>
   );
 }
-
 export default App;
